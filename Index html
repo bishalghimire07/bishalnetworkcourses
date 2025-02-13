@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishal Education Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .course {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .course:last-child {
+            border-bottom: none;
+        }
+        .course-name {
+            font-weight: bold;
+            color: #333;
+        }
+        .price {
+            font-weight: bold;
+            color: #ff5722;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .btn {
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .btn-details {
+            background: #2196F3;
+            color: white;
+        }
+        .btn-buy {
+            background: #4CAF50;
+            color: white;
+        }
+        .package {
+            padding: 15px;
+            background: #eee;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bishal Education Courses</h1>
+
+        <h2>Digital Marketing Courses</h2>
+        <div class="course">
+            <span class="course-name">Social Media Marketing</span>
+            <span class="price">NPR 999</span>
+            <div class="buttons">
+                <a href="#" class="btn btn-details">View Details</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+        <div class="course">
+            <span class="course-name">Google Ads & YouTube Ads Mastery</span>
+            <span class="price">NPR 1499</span>
+            <div class="buttons">
+                <a href="#" class="btn btn-details">View Details</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+        <h2>E-commerce & Dropshipping</h2>
+        <div class="course">
+            <span class="course-name">Shopify Dropshipping A to Z</span>
+            <span class="price">NPR 2499</span>
+            <div class="buttons">
+                <a href="#" class="btn btn-details">View Details</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+        <h2>Digital Skills & Technology</h2>
+        <div class="course">
+            <span class="course-name">Web Design & Development</span>
+            <span class="price">NPR 2999</span>
+            <div class="buttons">
+                <a href="#" class="btn btn-details">View Details</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+        <h2>Freelancing & Remote Work</h2>
+        <div class="course">
+            <span class="course-name">Freelancing on Fiverr & Upwork</span>
+            <span class="price">NPR 1499</span>
+            <div class="buttons">
+                <a href="#" class="btn btn-details">View Details</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+        <h2>Investment & Financial Education</h2>
+        <div class="course">
+            <span class="course-name">Stock Market & Trading Basics</span>
+            <span class="price">NPR 1999</span>
+            <div class="buttons">
+                <a href="#" class="btn btn-details">View Details</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+        <h2>Language Learning Courses</h2>
+        <div class="course">
+            <span class="course-name">Japanese Language (JLPT N5 & N4)</span>
+            <span class="price">NPR 2999</span>
+            <div class="buttons">
+                <a href="#" class="btn btn-details">View Details</a>
+                <a href="#" class="btn btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+        <h2>Combo Packages</h2>
+
+        <div class="package">
+            <h3>Basic Package</h3>
+            <p>3 Courses Included</p>
+            <p>Original Price: NPR 3497</p>
+            <p><strong>Discounted Price: NPR 3322</strong> (5% Discount)</p>
+            <a href="#" class="btn btn-buy">Buy Now</a>
+        </div>
+
+        <div class="package">
+            <h3>Silver Package</h3>
+            <p>5 Courses Included</p>
+            <p>Original Price: NPR 7495</p>
+            <p><strong>Discounted Price: NPR 7120</strong> (5% Discount)</p>
+            <a href="#" class="btn btn-buy">Buy Now</a>
+        </div>
+
+        <div class="package">
+            <h3>Gold Package</h3>
+            <p>8 Courses Included</p>
+            <p>Original Price: NPR 12491</p>
+            <p><strong>Discounted Price: NPR 11866</strong> (5% Discount)</p>
+            <a href="#" class="btn btn-buy">Buy Now</a>
+        </div>
+
+        <div class="package">
+            <h3>Boost Package</h3>
+            <p>12 Courses Included</p>
+            <p>Original Price: NPR 19988</p>
+            <p><strong>Discounted Price: NPR 18988</strong> (5% Discount)</p>
+            <a href="#" class="btn btn-buy">Buy Now</a>
+        </div>
+
+        <div class="package">
+            <h3>King Package</h3>
+            <p>16 Courses Included</p>
+            <p>Original Price: NPR 27984</p>
+            <p><strong>Discounted Price: NPR 26585</strong> (5% Discount)</p>
+            <a href="#" class="btn btn-buy">Buy Now</a>
+        </div>
+
+        <div class="package">
+            <h3>Premium Package</h3>
+            <p>20 Courses Included</p>
+            <p>Original Price: NPR 34980</p>
+            <p><strong>Discounted Price: NPR 33231</strong> (5% Discount)</p>
+            <a href="#" class="btn btn-buy">Buy Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
